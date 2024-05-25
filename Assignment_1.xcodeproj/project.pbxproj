@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A18EBA52C01E3D000044291 /* ezgif-1-206cdec6cc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A18EBA42C01E3D000044291 /* ezgif-1-206cdec6cc.gif */; };
 		7A541A3E2C01DB2900075951 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A541A3D2C01DB2900075951 /* HomeView.swift */; };
 		7A8BB8022C00A83200D4A2F3 /* Assignment_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BB8012C00A83200D4A2F3 /* Assignment_1App.swift */; };
 		7A8BB8042C00A83300D4A2F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BB8032C00A83300D4A2F3 /* ContentView.swift */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		41B54969D0F4B5704353D05F /* Pods-Assignment_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_1.debug.xcconfig"; path = "Target Support Files/Pods-Assignment_1/Pods-Assignment_1.debug.xcconfig"; sourceTree = "<group>"; };
+		7A18EBA22C01E2AE00044291 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A18EBA42C01E3D000044291 /* ezgif-1-206cdec6cc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif-1-206cdec6cc.gif"; sourceTree = "<group>"; };
 		7A541A3D2C01DB2900075951 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7A8BB7FE2C00A83200D4A2F3 /* Assignment_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8BB8012C00A83200D4A2F3 /* Assignment_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_1App.swift; sourceTree = "<group>"; };
@@ -69,9 +72,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7A18EBA32C01E3C500044291 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				7A18EBA42C01E3D000044291 /* ezgif-1-206cdec6cc.gif */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
 		7A8BB7F52C00A83200D4A2F3 = {
 			isa = PBXGroup;
 			children = (
+				7A18EBA32C01E3C500044291 /* Sample */,
+				7A18EBA22C01E2AE00044291 /* README.md */,
 				7AB666162C01ACE5001FD0CC /* Podfile */,
 				7A8BB8002C00A83200D4A2F3 /* Assignment_1 */,
 				7A8BB7FF2C00A83200D4A2F3 /* Products */,
@@ -228,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AB666172C01ACE6001FD0CC /* Podfile in Resources */,
+				7A18EBA52C01E3D000044291 /* ezgif-1-206cdec6cc.gif in Resources */,
 				7AB666192C01AD7C001FD0CC /* GoogleService-Info.plist in Resources */,
 				7A8BB80B2C00A83500D4A2F3 /* Preview Assets.xcassets in Resources */,
 				7A8BB8082C00A83500D4A2F3 /* Assets.xcassets in Resources */,
